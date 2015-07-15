@@ -1,0 +1,144 @@
+/* line 4, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+html, body, p {
+  margin: 0;
+}
+
+/* line 8, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+body {
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 13, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+.header {
+  background-color: #f2580b;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  height: 80px;
+  text-align: center;
+}
+
+/* line 20, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+.header img {
+  margin: 15px 0 0;
+  width: 60px;
+}
+
+/* line 25, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+.header h1 {
+  text-indent: -9999px;
+}
+
+/* line 29, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+/* line 34, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+.messages, .create {
+  margin: 40px 0;
+}
+
+/* line 38, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+.messages a,
+.create .actions input {
+  background-color: #f2580b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* line 52, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+.message {
+  background-color: #fff;
+  font-weight: 300;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+/* line 59, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+p.time {
+  color: #0084d7;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+/* line 65, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+button {
+  background-color: #f2580b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+}
+
+/* line 76, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+button:hover {
+  background-color: #c24609;
+  transition: background-color 0.5s;
+}
+
+/* line 81, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+form label {
+  display: block;
+  width: 100%;
+}
+
+/* line 86, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+form textarea {
+  border: 1px solid transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px 0 10px;
+  min-height: 100px;
+  padding: 16px;
+  transition: border 0.5s;
+  width: calc(100% - 32px);
+}
+
+/* line 98, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+form textarea:focus {
+  border: 1px solid #0084d7;
+  box-shadow: 0;
+  outline: 0;
+  transition: border 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 106, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* line 111, D:/w/MessengerApp/app/assets/stylesheets/messages.scss */
+  .messages, .create {
+    padding: 0 20px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
